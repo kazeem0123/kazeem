@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="samad.css">
+    <title>Kazeem Samad</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Kazeem Samad</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <img src="samad.jpg" alt="Profile" class="hero-img">
+            <h1>Hi, I'm Kazeem Samad</h1>
+            <p>Web Developer | UI/UX Enthusiast | Problem Solver</p>
+            <a href="#contact" class="btn-primary">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="samad.jpg" alt="About" class="about-img">
+                <div>
+                    <p><strong>Professional Background:</strong> I am a dedicated web developer with a B.Sc. in Computer Science from Bells University of Technology. My experience spans both front-end and back-end development, with a strong focus on building modern, responsive, and accessible web applications.</p>
+                    <p><strong>Skills Overview:</strong> HTML5, CSS3, JavaScript, React, Node.js, Express, MongoDB, UI/UX Design, Git & GitHub.</p>
+                    <p><strong>Career Interests & Goals:</strong> I am passionate about creating seamless user experiences and scalable web solutions. My goal is to contribute to innovative projects, grow as a full-stack developer, and make a positive impact through technology.</p>
+                    <p><strong>Personal Experience:</strong> My journey in web development began with freelance projects, where I learned to solve real-world problems and collaborate with diverse teams. I enjoy learning new technologies and sharing knowledge with the community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid" id="projects-list">
+                <div class="project-card" data-tech="javascript" style="text-align:left;">
+                    <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=400" alt="Color Flipper Demo">
+                    <h3>Color Flipper</h3>
+                    <p>A simple JavaScript project that lets users change the background color of the page with a button click. Great for learning DOM manipulation and event handling.</p>
+                    <ul style="color:var(--text-light);font-size:0.98rem;list-style:disc inside;margin:0.5rem 0 0.5rem 0;">
+                        <li><strong>Technologies:</strong> HTML, CSS, JavaScript</li>
+                        <li><strong>Role:</strong> Developer</li>
+                    </ul>
+                    <div style="margin:0.5rem 0;display:flex;gap:0.5rem;flex-wrap:wrap;">
+                        <a href="https://100jsprojects.com/projects/color-flipper" class="btn-primary" target="_blank">Live Demo</a>
+                        <a href="https://github.com/john-smilga/javascript-basic-projects/tree/master/01-color-flipper" class="btn-primary" style="background:#fff;color:var(--accent);" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="project-card" data-tech="javascript" style="text-align:left;">
+                    <img src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&w=400" alt="Counter App Demo">
+                    <h3>Counter App</h3>
+                    <p>A JavaScript counter app that allows users to increment, decrement, and reset a value. Perfect for practicing state management and UI updates.</p>
+                    <ul style="color:var(--text-light);font-size:0.98rem;list-style:disc inside;margin:0.5rem 0 0.5rem 0;">
+                        <li><strong>Technologies:</strong> HTML, CSS, JavaScript</li>
+                        <li><strong>Role:</strong> Developer</li>
+                    </ul>
+                    <div style="margin:0.5rem 0;display:flex;gap:0.5rem;flex-wrap:wrap;">
+                        <a href="https://100jsprojects.com/projects/counter" class="btn-primary" target="_blank">Live Demo</a>
+                        <a href="https://github.com/john-smilga/javascript-basic-projects/tree/master/02-counter" class="btn-primary" style="background:#fff;color:var(--accent);" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="project-card" data-tech="javascript" style="text-align:left;">
+                    <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&w=400" alt="Accordion FAQ Demo">
+                    <h3>Accordion FAQ</h3>
+                    <p>An interactive FAQ section using the accordion pattern. Click on a question to expand or collapse the answer. Demonstrates dynamic class toggling and accessibility.</p>
+                    <ul style="color:var(--text-light);font-size:0.98rem;list-style:disc inside;margin:0.5rem 0 0.5rem 0;">
+                        <li><strong>Technologies:</strong> HTML, CSS, JavaScript</li>
+                        <li><strong>Role:</strong> Developer</li>
+                    </ul>
+                    <div style="margin:0.5rem 0;display:flex;gap:0.5rem;flex-wrap:wrap;">
+                        <a href="https://100jsprojects.com/projects/accordion" class="btn-primary" target="_blank">Live Demo</a>
+                        <a href="https://github.com/john-smilga/javascript-basic-projects/tree/master/07-accordion" class="btn-primary" style="background:#fff;color:var(--accent);" target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="skill-icon"> HTML5 <div class="progress" style="max-width:350px;"><div class="progress-bar" style="width:95%"></div></div><span style="margin-left:1rem;font-weight:600;color:var(--text-light);">95%</span></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="skill-icon"> CSS3 <div class="progress" style="max-width:350px;"><div class="progress-bar" style="width:92%"></div></div><span style="margin-left:1rem;font-weight:600;color:var(--text-light);">92%</span></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon"> JavaScript <div class="progress" style="max-width:350px;"><div class="progress-bar" style="width:90%"></div></div><span style="margin-left:1rem;font-weight:600;color:var(--text-light);">90%</span></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" class="skill-icon"> Bootstrap <div class="progress" style="max-width:350px;"><div class="progress-bar" style="width:80%"></div></div><span style="margin-left:1rem;font-weight:600;color:var(--text-light);">80%</span></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" class="skill-icon"> Figma <div class="progress" style="max-width:350px;"><div class="progress-bar" style="width:80%"></div></div><span style="margin-left:1rem;font-weight:600;color:var(--text-light);">80%</span></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop" class="skill-icon"> Photoshop <div class="progress" style="max-width:350px;"><div class="progress-bar" style="width:65%"></div></div><span style="margin-left:1rem;font-weight:600;color:var(--text-light);">65%</span></div>
+                <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="skill-icon"> Git & GitHub <div class="progress" style="max-width:350px;"><div class="progress-bar" style="width:90%"></div></div><span style="margin-left:1rem;font-weight:600;color:var(--text-light);">90%</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <h3>Student, New Horizons ICT Resource Center</h3>
+                    <span>2025 - Present</span>
+                    <ul>
+                        <li>Completed professional ICT and web development training</li>
+                        <li>Gained hands-on experience with modern web technologies</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Web Developer</h3>
+                    <span>Bells University of Technology</span>
+                    <span>2024 - Present</span>
+                    <ul>
+                        <li>Developed and maintained university web applications</li>
+                        <li>Collaborated with cross-functional teams</li>
+                        <li>Improved UI/UX for student projects</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Freelance Web Developer</h3>
+                    <span>2020 - 2022</span>
+                    <ul>
+                        <li>Delivered custom websites and web solutions for clients</li>
+                        <li>Focused on responsive design and performance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form class="contact-form" id="contactForm" novalidate>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+                <div id="form-feedback" style="margin-top:1rem;font-weight:600;"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <p id="footer-date"></p>
+            <p>&copy; <span id="footer-year"></span> Kazeem Samad. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" /></a>
+                <a href="#" aria-label="GitHub"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" /></a>
+                <a href="#" aria-label="Twitter"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" /></a>
+            </div>
+        </div>
+        <button id="backToTop" title="Back to Top" style="display:none;position:fixed;bottom:30px;right:30px;padding:0.7rem 1.2rem;background:var(--accent);color:#fff;border:none;border-radius:30px;cursor:pointer;z-index:200;font-weight:600;box-shadow:0 2px 8px rgba(33,150,243,0.15);">↑ Top</button>
+    </footer>
+
+    <script src="samad.js"></script>
+</body>
+</html>
